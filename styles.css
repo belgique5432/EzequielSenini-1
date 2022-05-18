@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100&family=Open+Sans&family=Oswald:wght@200&display=swap');
+
+:root {
+    --primary-color:#FCF3CF;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2{
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+/* navbar styling */
+
+.navbar {
+    background-color: var(--primary-color);
+    height: 10%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color:#333;
+    padding: 10px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #333 solid;
+}
+
+.navbar .flex {
+    justify-content: center;
+    background-color: #FCF3CF;
+}
+
+.navbar .logo{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* slider */
+
+#carouselExampleControls{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+
+  /* showcase */
+
+  .showcase {
+      display: flex;
+      text-align: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+  }
+
+  .showcase > div {
+    display: flex;
+    width: 40rem;
+    margin-top: 15px;
+  }
+
+
+/* footer */
+
+.footer{
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+}
+
